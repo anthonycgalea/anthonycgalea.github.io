@@ -1,20 +1,44 @@
-<nav>
-  <a href="http://webp.svsu.edu/~agalea/">M Drive</a> * 
-  <a href="http://csis.svsu.edu/~agalea/">CSIS Server</a> * 
-  <a href="https://anthonycgalea.github.io/">Github.IO</a>
-</nav>
-<link rel="stylesheet" type="text/css" href="style.css">
+
+<link rel="stylesheet" type="text/css" href="/css/style.css">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
 <style>
 	p {
+		position: static;
+		display: block;
 		margin-left: 200px;
 		border-radius: 4px;
 		text-shadow: 0 1px 0 black, 0 -1px 0 black, 1px 0 0 black, -1px 0 0 black;
 		box-shadow: 1px 1px 3px #292929;
 		
 	}
+	
+	#customid {
+		text-align: left;
+		color: lime;
+		display: inline;
+	}
+	
+	.center {
+		text-align: center;
+	}
+	
+	.rel {
+		position: relative;
+		left: 30px;
+		top: 10px;
+	}
+	
+	.fix {
+		position: fixed;
+	}
+	
 </style>
+<nav class="fix">
+  <a href="http://webp.svsu.edu/~agalea/">M Drive</a> * 
+  <a href="http://csis.svsu.edu/~agalea/">CSIS Server</a> * 
+  <a href="https://anthonycgalea.github.io/">Github.IO</a>
+</nav>
 <br><br>
 <a href="https://trends.google.com/trends/yis/2019/US/">The most searched thing in 2019 was Disney Plus.</a>
 <br><br>
@@ -22,17 +46,19 @@
 <br><br>
 <a href="https://www.hostingadvice.com/how-to/largest-web-hosting-companies/">With 15.2% of all websites, GoDaddy is the largest web hosting service.</a>
 <br>
-<h1>Good morning!</h1>
+<h1 class="center">Good morning!</h1>
 <h2 style="color:green;">Good afternoon!</h2>
 <code>
   Hello world!
 </code><br>
-
-<p>
+<div class="rel">
+Hello!
+</div>
+<p id="customid">
 Did you know? CSS was invented in 1994.
 <br>
 Did you know? Bootstrap was originally invented to help manage Twitter's framework.
-</p>
+</p><br>
 <label for="sports">Pick your favorite sport!</label>
 <select id="sports">
   <option value="baseball">Baseball</option>
