@@ -1,0 +1,372 @@
+<h1>Golf Scorecard</h1>
+
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="utf-8">
+  <meta name="author" content="Anthony Galea">
+  
+  <title>Golf Scorecard</title>
+    <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+<head>
+<style>
+	th, td {text-align: center;} 
+</style>
+<body>
+<table class="table table-striped">
+  <tr id="0">
+    <th>Hole</th>
+    <th>Par</th>
+    <th>Score</th>
+    <th>Over</th>
+    <th><button class="btn btn-primary">New Round</button> <button class="btn btn-danger">Clear All Scores</button></th>
+	<th>Average Score</th>
+  </tr>
+  <tr id="1">
+    <td>1</td>
+    <td>4</td>
+    <td>-</td>
+    <td>-</td>
+    <td><button class="btn btn-success">+</button> <button class="btn btn-danger">-</button> <button class="btn btn-info">C</button></td>
+	 <td>-</td>
+  </tr>
+  <tr id="2">
+    <td>2</td>
+    <td>4</td>
+    <td>-</td>
+    <td>-</td>
+    <td><button class="btn btn-success">+</button> <button class="btn btn-danger">-</button> <button class="btn btn-info">C</button></td>
+	<td>-</td>
+  </tr>
+  <tr id="3">
+    <td>3</td>
+    <td>4</td>
+    <td>-</td>
+    <td>-</td>
+    <td><button class="btn btn-success">+</button> <button class="btn btn-danger">-</button> <button class="btn btn-info">C</button></td>
+	<td>-</td>
+  </tr>
+  <tr id="4">
+    <td>4</td>
+    <td>4</td>
+    <td>-</td>
+    <td>-</td>
+    <td><button class="btn btn-success">+</button> <button class="btn btn-danger">-</button> <button class="btn btn-info">C</button></td>
+	<td>-</td>
+  </tr>
+  <tr id="5">
+    <td>5</td>
+    <td>4</td>
+    <td>-</td>
+    <td>-</td>
+    <td><button class="btn btn-success">+</button> <button class="btn btn-danger">-</button> <button class="btn btn-info">C</button></td>
+	<td>-</td>
+  </tr>
+  <tr id="6">
+    <td>6</td>
+    <td>4</td>
+    <td>-</td>
+    <td>-</td>
+    <td><button class="btn btn-success">+</button> <button class="btn btn-danger">-</button> <button class="btn btn-info">C</button></td>
+	<td>-</td>
+  </tr>
+  <tr id="7">
+    <td>7</td>
+    <td>4</td>
+    <td>-</td>
+    <td>-</td>
+    <td><button class="btn btn-success">+</button> <button class="btn btn-danger">-</button> <button class="btn btn-info">C</button></td>
+	<td>-</td>
+  </tr>
+  <tr id="8">
+    <td>8</td>
+    <td>4</td>
+    <td>-</td>
+    <td>-</td>
+    <td><button class="btn btn-success">+</button> <button class="btn btn-danger">-</button> <button class="btn btn-info">C</button></td>
+	<td>-</td>
+  </tr>
+  <tr id="9">
+    <td>9</td>
+    <td>4</td>
+    <td>-</td>
+    <td>-</td>
+    <td><button class="btn btn-success">+</button> <button class="btn btn-danger">-</button> <button class="btn btn-info">C</button></td>
+	<td>-</td>
+  </tr>
+  <tr id="10">
+    <td>10</td>
+    <td>4</td>
+    <td>-</td>
+    <td>-</td>
+    <td><button class="btn btn-success">+</button> <button class="btn btn-danger">-</button> <button class="btn btn-info">C</button></td>
+	<td>-</td>
+  </tr>
+  <tr id="11">
+    <td>11</td>
+    <td>4</td>
+    <td>-</td>
+    <td>-</td>
+    <td><button class="btn btn-success">+</button> <button class="btn btn-danger">-</button> <button class="btn btn-info">C</button></td>
+	<td>-</td>
+  </tr>
+  <tr id="12">
+    <td>12</td>
+    <td>4</td>
+    <td>-</td>
+    <td>-</td>
+    <td><button class="btn btn-success">+</button> <button class="btn btn-danger">-</button> <button class="btn btn-info">C</button></td>
+	<td>-</td>
+  </tr>
+  <tr id="13">
+    <td>13</td>
+    <td>4</td>
+    <td>-</td>
+    <td>-</td>
+    <td><button class="btn btn-success">+</button> <button class="btn btn-danger">-</button> <button class="btn btn-info">C</button></td>
+	<td>-</td>
+  </tr>
+  <tr id="14">
+    <td>14</td>
+    <td>4</td>
+    <td>-</td>
+    <td>-</td>
+    <td><button class="btn btn-success">+</button> <button class="btn btn-danger">-</button> <button class="btn btn-info">C</button></td>
+	<td>-</td>
+  </tr>
+  <tr id="15">
+    <td>15</td>
+    <td>4</td>
+    <td>-</td>
+    <td>-</td>
+    <td><button class="btn btn-success">+</button> <button class="btn btn-danger">-</button> <button class="btn btn-info">C</button></td>
+	<td>-</td>
+  </tr>
+  <tr id="16">
+    <td>16</td>
+    <td>4</td>
+    <td>-</td>
+    <td>-</td>
+    <td><button class="btn btn-success">+</button> <button class="btn btn-danger">-</button> <button class="btn btn-info">C</button></td>
+	<td>-</td>
+  </tr>
+  <tr id="17">
+    <td>17</td>
+    <td>4</td>
+    <td>-</td>
+    <td>-</td>
+    <td><button class="btn btn-success">+</button> <button class="btn btn-danger">-</button> <button class="btn btn-info">C</button></td>
+	<td>-</td>
+  </tr>
+  <tr id="18">
+    <td>18</td>
+    <td>4</td>
+    <td>-</td>
+    <td>-</td>
+    <td><button class="btn btn-success">+</button> <button class="btn btn-danger">-</button> <button class="btn btn-info">C</button></td>
+	<td>-</td>
+  </tr>
+  <tr id="19">
+    <td class="allTotal">Total:</td>
+    <td class="parTotal">-</td>
+    <td class="scoreTotal">-</td>
+    <td class="overTotal">-</td>
+    <td></td>
+	<td class="averageTotal">-</td>
+  </tr>
+</table>
+<script>
+var totalPar = 0;
+var pars = [4,5,4,3,4,5,4,3,4,4,5,4,3,4,5,3,4,4];
+var currentScore = 0;
+var rounds = [];
+elem = document.getElementById("0");
+elem.children[4].children[0].onclick = function(){addRound();};
+elem.children[4].children[1].onclick = function(){clearAllScores()};
+loadInfo();
+
+function clearAllScores() {
+	localStorage.clear();
+	loadInfo();
+	totals = document.getElementById("19");
+	window.location.href = "golfScorecards.html"; //refreshes page
+
+}
+
+function loadInfo() {
+	loadRounds();
+	totals = document.getElementById("19");
+	for (let i=1; i < 19; i++) {
+		let elem  = document.getElementById(i.toString());
+		elem.children[1].innerHTML = pars[i-1];
+		elem.children[2].innerHTML = rounds[rounds.length-1][i-1];
+		if (rounds[rounds.length-1][i-1] != "-") {
+			elem.children[3].innerHTML = rounds[rounds.length-1][i-1]-pars[i-1];
+			parToTotal(elem);
+			currentScore = currentScore + rounds[rounds.length-1][i-1];	
+		}
+	elem.children[4].children[0].onclick  = function(){add1(elem);};
+	elem.children[4].children[1].onclick  = function(){subtract1(elem);};
+	elem.children[4].children[2].onclick = function(){clear(elem);};
+	totalPar= totalPar+pars[i-1];
+	}
+	if (currentScore > 0) {
+		totals.children[2].innerHTML = currentScore;
+	}
+	document.getElementById("19").children[1].innerHTML = totalPar;
+	localStorage.setItem("pars", JSON.stringify(pars));
+}
+
+
+
+// you don't have to define the function before you use it! 
+function add1 (elem) {
+  var currentScore;
+  let totals  = document.getElementById("19");
+  if(elem.children[2].innerHTML == "-") {
+    elem.children[2].innerHTML = "1";
+	currentScore = 1;
+    let par = elem.children[1].innerHTML;
+    elem.children[3].innerHTML = 1-Number.parseInt(par);
+	if(totals.children[2].innerHTML == "-") {
+		totals.children[2].innerHTML = 1;
+	} else {
+		totals.children[2].innerHTML = Number.parseInt(totals.children[2].innerHTML) + 1;
+	}
+	parToTotal(elem);
+	rounds[rounds.length-1][elem.id-1] = 1;
+  }
+  else {
+    let currentScore = elem.children[2].innerHTML;
+    currentScore = Number.parseInt(currentScore);
+    elem.children[2].innerHTML = currentScore + 1;
+    let par = elem.children[1].innerHTML;
+    elem.children[3].innerHTML = (currentScore+1)-Number.parseInt(par);
+	totals.children[2].innerHTML = Number.parseInt(totals.children[2].innerHTML)+1;
+	totals.children[3].innerHTML = Number.parseInt(totals.children[3].innerHTML)+1;
+	rounds[rounds.length-1][elem.id-1]=rounds[rounds.length-1][elem.id-1]+1;
+  }
+  calcAverages();
+  localStorage.setItem("rounds", JSON.stringify(rounds));
+
+  
+}
+
+function loadRounds() {
+	// if "rounds" array already exists, load it from local storage
+	if (localStorage.getItem("rounds")) {
+		rounds = JSON.parse(localStorage.getItem("rounds"));
+	}
+	// otherwise create new "clubs" array, using resetAllClubs()
+	else {
+		rounds = [];
+		addRound();
+	}
+	calcAverages();
+	localStorage.setItem("rounds", JSON.stringify(rounds));
+	return rounds;
+}
+
+function subtract1 (elem) {
+  var currentScore;
+  let totals  = document.getElementById("19");
+  if(elem.children[2].innerHTML == "-") {
+    elem.children[2].innerHTML = "-1";
+    currentScore = 0;
+    let par = elem.children[1].innerHTML;
+    elem.children[3].innerHTML = (currentScore-1)-Number.parseInt(par);
+	if(totals.children[2].innerHTML == "-") {
+		totals.children[2].innerHTML = -1;
+	} else {
+		totals.children[2].innerHTML = Number.parseInt(totals.children[2].innerHTML) - 1;
+	}
+	parToTotal(elem);
+	rounds[rounds.length-1][elem.id-1] = -1;
+  }
+  else {
+    let currentScore = elem.children[2].innerHTML;
+    currentScore = Number.parseInt(currentScore);
+    elem.children[2].innerHTML = currentScore - 1;
+    let par = elem.children[1].innerHTML;
+    elem.children[3].innerHTML = (currentScore-1)-Number.parseInt(par);
+	totals.children[2].innerHTML = Number.parseInt(totals.children[2].innerHTML)-1;
+	totals.children[3].innerHTML = Number.parseInt(totals.children[3].innerHTML)-1;
+	rounds[rounds.length-1][elem.id-1]=rounds[rounds.length-1][elem.id-1]-1;
+  }
+  calcAverages();
+  localStorage.setItem("rounds", JSON.stringify(rounds));
+}
+
+function addRound() {
+	rounds[rounds.length] = ["-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-"];
+	for (let i=1; i < 19; i++) {
+		let elem  = document.getElementById(i.toString());
+		elem.children[2].innerHTML = "-";
+		elem.children[3].innerHTML = "-";
+		parToTotal(elem);
+	}
+	let elem = document.getElementById("19");
+	elem.children[2].innerHTML = "-";
+	elem.children[3].innerHTML = "-";
+}
+
+function clear (elem) {
+	if(elem.children[2].innerHTML != "-") { 
+		let oldScore = elem.children[2].innerHTML;
+		let oldOver = elem.children[3].innerHTML;
+		let totals  = document.getElementById("19");
+		totals.children[2].innerHTML = Number.parseInt((totals.children[2].innerHTML))-Number.parseInt(oldScore);
+		totals.children[3].innerHTML = Number.parseInt((totals.children[3].innerHTML))-Number.parseInt(oldOver);
+		if (totals.children[2].innerHTML == "0" && totals.children[3].innerHTML == "0") {
+			totals.children[2].innerHTML = "-";
+			totals.children[3].innerHTML = "-";
+		}
+		elem.children[2].innerHTML = "-";
+		elem.children[3].innerHTML = "-";
+	}
+	rounds[rounds.length-1][elem.id-1] = "-";
+	calcAverages();
+	localStorage.setItem("rounds", JSON.stringify(rounds));
+}
+
+function calcAverages() {
+	var totAvg = 0;
+	for (let i = 0; i < 18; i++) {
+		let sum = 0;
+		let count = 0;
+		for (let j = 0; j < rounds.length; j++) {
+			if (rounds[j][i] != "-") {
+				count++;
+				sum = sum + rounds[j][i];
+			}
+			let elem  = document.getElementById((i+1).toString());
+			if (count > 0) {
+				elem.children[5].innerHTML = (sum/count).toFixed(1);
+			}
+			else {
+				elem.children[5].innerHTML = "-";
+			}
+
+		}
+		if (count > 0) {
+			totAvg = totAvg+(sum/count);
+		}
+	}
+	elem = document.getElementById("19");
+	if (totAvg > 0) {
+	elem.children[5].innerHTML = totAvg.toFixed(1);
+	} else {
+	elem.children[5].innerHTML = "-";
+	}
+}
+
+function parToTotal(elem) {
+	let totals  = document.getElementById("19");
+	if(totals.children[3].innerHTML == "-") {
+		totals.children[3].innerHTML = 0;
+	}
+	totals.children[3].innerHTML = Number.parseInt(totals.children[3].innerHTML) + Number.parseInt(elem.children[3].innerHTML);
+}
+</script>
+</body>
